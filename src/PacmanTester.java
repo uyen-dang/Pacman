@@ -35,8 +35,8 @@ public class PacmanTester {
 		Pacman ab = new Pacman("mazes/randomMaze.txt", "mazes/testing123.txt");
 		ab.solveDFS();
 		System.out.println(ab);
-		Pacman x = new Pacman("mazes/randomMazeDFSSol.txt", "mazes/beep2.txt");
-		System.out.println(x);
+		Pacman k = new Pacman("mazes/randomMazeDFSSol.txt", "mazes/beep2.txt");
+		System.out.println(k);
 		
 	}
 }
